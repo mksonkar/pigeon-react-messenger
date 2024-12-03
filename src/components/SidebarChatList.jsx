@@ -25,7 +25,10 @@ export default function SidebarChatList() {
           />
           <div>
             <p className="text-sm font-bold">John Doe</p>
-            <p className="text-sm">Last message...</p>
+            <div>
+              <p className="text-sm">Last message...</p>
+              <span>2 mins ago</span>
+            </div>
           </div>
         </div>
       </section>
