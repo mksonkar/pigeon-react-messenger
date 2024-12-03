@@ -3,7 +3,7 @@ import { FaPlus, FaSearch } from "react-icons/fa";
 export default function SidebarChatList() {
   return (
     <div className="chatList">
-      <section className="search my-4 flex w-full items-center justify-between gap-3">
+      <section className="search flex items-center justify-between px-2 py-4">
         <div className="searchBar flex items-center rounded-md bg-emerald-700 px-2 focus:ring-1 focus:ring-emerald-600">
           <FaSearch />
           <input
@@ -12,7 +12,9 @@ export default function SidebarChatList() {
             className="bg-transparent p-2 focus:outline-none"
           />
         </div>
-        <FaPlus />
+        <button className="ml-2 rounded-lg p-3 hover:bg-emerald-700">
+          <FaPlus />
+        </button>
       </section>
       <section className="flex flex-col bg-emerald-700 px-3 py-2">
         <div className="flex items-center gap-3">
