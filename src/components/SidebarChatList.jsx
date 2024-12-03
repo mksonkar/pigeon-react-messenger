@@ -16,7 +16,7 @@ export default function SidebarChatList() {
           <FaPlus />
         </button>
       </section>
-      <section className="flex flex-col bg-emerald-700 px-3 py-2">
+      <section className="flex flex-col border-b border-white/10 bg-emerald-700 px-3 py-2">
         <div className="flex items-center gap-3">
           <img
             src="https://picsum.photos/200/300"
