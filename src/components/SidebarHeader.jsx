@@ -3,7 +3,7 @@ import { FiMoreHorizontal } from "react-icons/fi";
 
 export default function UserInfo() {
   return (
-    <div className="flex items-center justify-between p-2">
+    <div className="flex items-center justify-between px-2 py-1">
       <div className="flex items-center gap-3 p-3">
         <FaUserCircle size={30} className="" />
         <h2 className="font-bold">John Doe</h2>
